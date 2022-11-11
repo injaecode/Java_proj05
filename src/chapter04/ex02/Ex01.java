@@ -30,7 +30,6 @@ public class Ex01 {
 			System.out.println("메달이 없습니다.");
 			
 		}
-		System.out.println(" ");
 		
 		System.out.println("=================");
 		//실습2) 
@@ -39,7 +38,7 @@ public class Ex01 {
 		
 		medal2 = sc.next();
 		switch (medal2) {
-		case "gold":
+		case "gold": case "Gold": case "GOLD":
 			System.out.println("금메달입니다.");
 			break;
 		case "silver":
@@ -53,6 +52,8 @@ public class Ex01 {
 		
 		}
 	
+		sc.close();
+		
 	}
 
 }
