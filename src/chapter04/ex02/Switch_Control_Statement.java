@@ -1,4 +1,4 @@
-package chapter04;
+package chapter04.ex02;
 
 public class Switch_Control_Statement {
 
