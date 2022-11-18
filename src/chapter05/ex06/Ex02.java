@@ -1,5 +1,7 @@
 package chapter05.ex06;
 
+import java.util.Arrays;
+
 public class Ex02 {
 
 	public static void main(String[] args) {
@@ -50,12 +52,23 @@ public class Ex02 {
 		
 		System.out.println("=========for문을 사용해 출력=======");
 			for (int i = 0 ; i <arr1.length;i++) {
-				for (int j = 0; j <arr1[i].length;1++) {
-					System.out.println(arr1[i][j] + " ");
+				for (int j = 0; j <arr1[i].length; j++) {
+					System.out.print(arr1[i][j] + " ");
 				}
 				System.out.println();
 			}
-		System.out.println("========Enhanced for문을 사용해 출력======");
-			for 
+			System.out.println("====Enhanced for 문을 사용해서 내용 출력 =====");
+			for ( int[] a : arr1) {
+				for (int b : a) {
+					System.out.print( b + " ");
+				}
+				System.out.println();
+			}
+
+			System.out.println("====Arrays.toString()를 사용해서 내용 출력 =====");
+			for ( int[] a : arr1) {
+				System.out.println(Arrays.toString(a));
+				
+			}
 	}
 }
