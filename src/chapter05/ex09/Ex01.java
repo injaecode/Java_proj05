@@ -115,6 +115,8 @@ public class Ex01 {
 		}
 		System.out.print(sums/8.0);
 		System.out.println();
+		
+		
 	}
 
 }
