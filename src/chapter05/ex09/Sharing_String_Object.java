@@ -11,7 +11,8 @@ public class Sharing_String_Object {
 		String str1 = new String("안녕") ;
 		String str2 = "안녕" ;
 		String str3 = "안녕" ;
-		String str4 = new String ("안녕") ;
+		String str4 = "안녕" ;
+		String str5 = new String ("안녕") ;
 		
 		// 2. Stack 메모리의 주소값 비교 ( == : Stack의 값 비교)
 		//				equals() : Heap의 값 비교 참조객체.equals(비교객체);
@@ -21,6 +22,12 @@ public class Sharing_String_Object {
 		System.out.println(str2 == str4); 
 	//	System.out.println(str1 == str5); 	//false
 		
+		//3. equals() : Heap 영역의 값 비교
+		System.out.println(str1.equals(str2));
+		System.out.println(str1.equals(str3));
+		System.out.println(str1.equals(str4));
+		System.out.println(str1.equals(str5));
+		System.out.println();
 	}
 
 }

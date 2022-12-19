@@ -29,12 +29,7 @@ public class PlusOperatorOfString {
 		System.out.println(str6);	//안녕1
 		
 		System.out.println("===============");
-		//3. equals() : Heap 영역의 값 비교
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
+		
 	}
 
 }

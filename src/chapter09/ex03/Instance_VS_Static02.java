@@ -19,13 +19,14 @@ class C {
 public class Instance_VS_Static02 {
 
 	public static void main(String[] args) {
+		
 		// 1. 객체 생성
 		C c1 = new C();
 		//객체 필드의 값 수정
 		c1.a = 100 ;
 		c1.b = 777;
 		System.out.println(c1.a); 	//10 -> 100
-		System.out.println(c1.b);	//20
+		System.out.println(c1.b);	//20 ->777
 		System.out.println("=========");
 		C c2 = new C() ;
 		System.out.println(c2.a);	//10 -> 100

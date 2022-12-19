@@ -18,7 +18,7 @@ class B {
 		this (4,5); 	//매개변수가 정수 2개인 생성자 호출 
 		System.out.println("매개변수가 3개인 생성자 호출 ");
 	}
-
+	
 }
 
 public class This_Method {

@@ -34,7 +34,7 @@ public class Read_Array_Data {
 			//행의 정보를 출력
 			for (int j = 0 ; j<arr3[i].length;j++) { //j:열의 방번호, arr2[i].length: 열의 개수
 				//열의 정보를 출력
-				System.out.println(arr3[i][j] + " ");
+				System.out.print(arr3[i][j] + " ");
 			}
 			System.out.println();
 		}

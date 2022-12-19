@@ -42,15 +42,16 @@ public class Array_Input_Output {
 		//0~마지막 방까지 한꺼번에 출력
 		int[] arr3 = new int [100] ;
 		//for문을 사용해 7의 배수만 저장
+		
 		for (int i = 0 , j =7 ; i <100 ; i++, j+=7) {
 			arr3[i] = j ;
 			//출력
 			System.out.print(arr3[i] + " ");
 		}
-
 		for (int k : arr3) {
 			System.out.print(k + " ");
 		}
+		
 
 		System.out.println();
 		System.err.println("=====Arrays.toString(배열변수)=====");

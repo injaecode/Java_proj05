@@ -13,7 +13,7 @@ class B {
 	static int a = 3; 	//static(정적)필드: 객체 생성 없이 클래스 이름으로 호출 가능, 객체 생성후 사용 가능
 	static int b = 4;
 
-	static void print() {				//정적 메소드 : 객체를 생성해야만 사용 가능
+	static void print() {				//정적 메소드 : 객체 없이 사용 가능
 		System.out.println(a + " " + b);
 	}
 	

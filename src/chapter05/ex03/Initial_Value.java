@@ -55,7 +55,7 @@ public class Initial_Value {
 		System.out.println("=========문자열 : 초기값으로 null==========");
 		String []arr5 = new String[3] ;
 		for (int i = 0 ; i<arr5.length;i++) {
-			System.out.println(arr5[i]+ " ") ;		
+			System.out.print(arr5[i]+ " ") ;		
 		}
 		System.out.println();
 		System.out.println("=========Arrays.toString()로 출력==========");

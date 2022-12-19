@@ -6,9 +6,9 @@ public class AssignmentOperator {
 		// 대입 연산자 (+=, -=, *=, /=)
 		
 		// 1. 대입연산자
-		int value1 = 3;
+		int value1 = 3;	
 		value1 = value1 + 3;
-		System.out.println(value1);
+		System.out.println(value1);	//6
 		
 		// 2. 축약 표현
 		int value2 = 2;
